@@ -1,0 +1,25 @@
+{
+  "name": "opensea_contract_integration",
+  "version": "1.0.0",
+  "description": "Examples of contracts for OpenSea integration",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "opensea",
+    "nft",
+    "erc721",
+    "erc1155"
+  ],
+  "author": "Oleg Shatniuk",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8"
+  }
+}
