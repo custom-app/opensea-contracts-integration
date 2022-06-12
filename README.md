@@ -1,7 +1,7 @@
 # Smart contracts for integration with OpenSea
 This repository contains smart contracts for demonstration of ways to integrate NFT smart contract with OpenSea.
 
-They are mainly used in [article on Medium]().
+They are mainly used in [article on Medium](https://medium.com/@shleshg/b2925789a62f).
 
 ### Prerequisites
 First, you need to install truffle and dependencies:
