@@ -6,7 +6,7 @@ They are mainly used in [article on Medium]().
 ### Prerequisites
 First, you need to install truffle and dependencies:
 
-```shell
+```bash
 npm install -g truffle
 npm install
 ```
@@ -22,22 +22,22 @@ And finally, replace all parameters in deploy/transferOwnership function calls i
 
 ### Running
 1. Deploy basic NFT
-```shell
+```bash
 truffle migrate --network mumbai --f 1 --to 1654688663
 ```
 2. Deploy NFT with contract-level metadata
-```shell
+```bash
 truffle migrate --network mumbai --f 1654688697 --to 1654688697
 ```
 3. Deploy Ownable NFT
-```shell
+```bash
 truffle migrate --network mumbai --f 1654688722 --to 1654688722
 ```
 4. Transfer ownership
-```shell
+```bash
 truffle migrate --network mumbai --f 1654688742 --to 1654688742
 ```
 5. Deploy AccessControl NFT
-```shell
+```bash
 truffle migrate --network mumbai --f 1654688757 --to 1654688757
 ```
